@@ -11,7 +11,7 @@ public class Q10 {
 
         int textLength = text.length();
 
-        if(textLength%2 == 1 || textLength != 1){
+        if(textLength%2 == 1){
             System.out.println(text.charAt((textLength/2)));
         } else {
             System.out.println("Invalid input!");
